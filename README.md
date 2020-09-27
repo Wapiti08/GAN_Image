@@ -32,11 +32,16 @@ Please fork this repository, modify as you like, then send me a pull request. I 
 参考
 
 - single_attack_attack:
+
 核心代码
 
 - solution_template （来自于之前我参加的一个比赛）:
+
 定向攻击的例子 --- 未完成
-目前有生成的模型
+
+目前有生成的模型 --- 查看[百度云分享](https://pan.baidu.com/s/161OTguhipT6fCAodB9yIhA)
+
+提取码：1234
 
 - 安排：
 我在周二的时候再具体看看平台怎么弄的，你们先理解前两个，或者你们在这之前可以尝试一下
