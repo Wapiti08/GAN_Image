@@ -1,6 +1,7 @@
 import cv2
 import numpy as np
 import matplotlib.pyplot as plt
+import skimage
 
 # read image with cv2
 img = cv2.imread('./Images/skin2.jpg')
@@ -23,6 +24,18 @@ img3 = cv2.warpAffine(img, M1, (cols, rows))
 
 # convert image with affine transformation
 img1 = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
+
+# ============ add Gaussian noise and salt-and-papper noise ============
+
+# ---- add Gaussian noise ----
+img_noise = img1.copy()
+img_noise_1 = skimage.util.random_noise(img_noise,mode = 'gaussian',seed=None, clip=True, mean=0, var=0.01)
+img_noise_2 = skimage.util.random_noise(img_noise, mode = 'gaussian', seed=None, clip=True, mean=0, var=0.04)
+img_noise_3 = skimage.util.random_noise(img_noise, mode = 'gaussian', seed=None, clip=True, mean=0, var = 0.09)
+
+# ---- add salt-and-papper noise ----
+img_sp_1 = skimage.util.random_noise()
+
 
 # print out the images
 plt.subplot(141)

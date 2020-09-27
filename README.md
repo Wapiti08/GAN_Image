@@ -20,3 +20,23 @@ The research on black_box attacks to images based on GAN model
 
 ## Upload
 Please fork this repository, modify as you like, then send me a pull request. I will check to integrate.
+
+## 说明
+
+- local_search_attack:
+
+参考
+
+- single_pixle_av:
+
+参考
+
+- single_attack_attack:
+核心代码
+
+- solution_template （来自于之前我参加的一个比赛）:
+定向攻击的例子 --- 未完成
+目前有生成的模型
+
+- 安排：
+我在周二的时候再具体看看平台怎么弄的，你们先理解前两个，或者你们在这之前可以尝试一下

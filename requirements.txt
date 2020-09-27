@@ -1,1 +1,13 @@
-opencv-python==4.4.0.42
+# Flask==1.0.2
+ImageHash==4.0
+imageio==2.8.0
+# Keras==2.3.1
+# numpy==1.18.1
+opencv-python==4.2.0.32
+# pandas==0.24.2
+Pillow==5.2.0
+requests==2.23.0
+scikit-image==0.15.0
+# skimage
+# scikit-learn==0.22.2.post1
+# tensorflow==2.2.0rc1
