@@ -51,4 +51,4 @@ Could not import PIL.Image. The use of `load_img` requires PIL
 
         1. read image from outside images/test folder with for loop
 
-        2. Change the way to targeted label to image
+        2. Change the way to match from targeted label to image
