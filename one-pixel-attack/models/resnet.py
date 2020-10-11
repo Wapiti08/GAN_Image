@@ -34,6 +34,7 @@ class ResNet(object):
         processed = self.preprocess_input(images)
         probabilities = self.model.predict(processed, batch_size=self.batch_size)
         decoded_predictions = list()
+        
         for im in probabilities:
             decoded_prediction = list()
             for i in range(im.shape[0]):
