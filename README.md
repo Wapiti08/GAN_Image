@@ -40,10 +40,17 @@ Please fork this repository, modify as you like, then send me a pull request. I 
 
 - one-pixel-attack:
 
-error:
+error(solved):
 ```
 Could not import PIL.Image. The use of `load_img` requires PIL
+
+# solved by uninstall the Pillow
+pip(3) uninstall Pillow
+pip(3) uninstall PIL
+pip(3) install Pillow
+
 ```
+
 
     - What to do next:
 
